@@ -9,4 +9,4 @@ spring:
       server:
         git:
           uri: https://github.com/hemantjava/git-configuration.git
-          searchPaths: config #looking for sub directory
+          searchPaths: common,{application} #looking for sub directory
