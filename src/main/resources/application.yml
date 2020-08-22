@@ -10,3 +10,8 @@ spring:
         git:
           uri: https://github.com/hemantjava/git-configuration.git
           searchPaths: common,{application} #looking for sub directory
+management:
+  endpoints:
+    web:
+      exposure:
+        exclude: "*"
